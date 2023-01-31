@@ -241,7 +241,7 @@ a:focus {
   padding: 8px 30px;
   background-color: #ffbe33;
   color: #ffffff;
-  border-radius: 45px;
+  border-radius: 10px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   border: none;
@@ -310,90 +310,40 @@ a:focus {
 }
 
 /*end header section*/
+
 /* slider section */
-.slider_section {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+#carouselExampleCaptions {
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+
+#carouselExampleCaptions .carousel-inner .carousel-item{
   position: relative;
-  padding: 45px 0 75px 0;
-}
-
-.slider_section .row {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.slider_section #customCarousel1 {
+  background: url(/images/home/BEM\ VINDO\ AO\ MANGATA.jpg);
+  height: 100vh;
   width: 100%;
-  position: unset;
+  background-size: cover;
+  background-position: center;
 }
 
-.slider_section .detail-box {
-  color: #ffffff;
-  margin-bottom: 145px;
-}
-
-.slider_section .detail-box h1 {
-  font-size: 3.5rem;
-  font-weight: bold;
-  margin-bottom: 15px;
-}
-
-.slider_section .detail-box p {
-  font-size: 14px;
-}
-
-.slider_section .detail-box a {
-  display: inline-block;
-  padding: 10px 45px;
-  background-color: #ffbe33;
-  color: #ffffff;
-  border-radius: 45px;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  border: none;
-  margin-top: 10px;
-}
-
-.slider_section .detail-box a:hover {
-  background-color: #e69c00;
-}
-
-.slider_section .img-box img {
+#carouselExampleCaptions .carousel-inner .carousel-item:nth-child(2){
+  position: relative;
+  background: url(/images/home/TOMAHAWK.jpg);
+  height: 100vh;
   width: 100%;
+  background-size: cover;
+  background-position: center;
 }
 
-.slider_section .carousel-indicators {
-  position: unset;
-  margin: 0;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.slider_section .carousel-indicators li {
-  background-color: #ffffff;
-  width: 12px;
-  height: 12px;
-  border-radius: 100%;
-  opacity: 1;
-}
-
-.slider_section .carousel-indicators li.active {
-  width: 20px;
-  height: 20px;
-  background-color: #ffbe33;
+#carouselExampleCaptions .carousel-inner .carousel-item:nth-child(3){
+  position: relative;
+  background: url(/images/home/PAELLA\ DE\ FRUTOS\ DO\ MAR.jpg);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
 }
 
 .offer_section {
@@ -455,7 +405,7 @@ a:focus {
   padding: 10px 30px;
   background-color: #ffbe33;
   color: #ffffff;
-  border-radius: 45px;
+  border-radius: 10px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   border: none;
@@ -601,10 +551,10 @@ a:focus {
 
 .food_section .btn-box a {
   display: inline-block;
-  padding: 10px 55px;
+  padding: 10px 40px;
   background-color: #ffbe33;
   color: #ffffff;
-  border-radius: 45px;
+  border-radius: 10px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   border: none;
@@ -648,10 +598,10 @@ a:focus {
 
 .about_section .detail-box a {
   display: inline-block;
-  padding: 10px 45px;
+  padding: 10px 40px;
   background-color: #ffbe33;
   color: #ffffff;
-  border-radius: 45px;
+  border-radius: 10px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   border: none;
@@ -663,64 +613,13 @@ a:focus {
 }
 
 .book_section {
+  margin: 40px 0px 40px 0px;
   position: relative;
+  text-align: end;
 }
 
 .book_section .heading_container {
   margin-bottom: 25px;
-}
-
-.book_section .form_container .form-control {
-  width: 100%;
-  border: none;
-  height: 50px;
-  margin-bottom: 25px;
-  padding-left: 25px;
-  border: 1px solid #999;
-  outline: none;
-  color: #000000;
-  border-radius: 5px;
-  outline: none;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-}
-
-.book_section .form_container .form-control::-webkit-input-placeholder {
-  color: #222222;
-}
-
-.book_section .form_container .form-control:-ms-input-placeholder {
-  color: #222222;
-}
-
-.book_section .form_container .form-control::-ms-input-placeholder {
-  color: #222222;
-}
-
-.book_section .form_container .form-control::placeholder {
-  color: #222222;
-}
-
-.book_section .form_container .nice-select .current {
-  font-size: 16px;
-}
-
-.book_section .form_container button {
-  margin-top: 15px;
-  border: none;
-  text-transform: uppercase;
-  display: inline-block;
-  padding: 10px 55px;
-  background-color: #ffbe33;
-  color: #ffffff;
-  border-radius: 45px;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  border: none;
-}
-
-.book_section .form_container button:hover {
-  background-color: #e69c00;
 }
 
 .book_section .map_container {
@@ -900,10 +799,16 @@ a:focus {
 
 /* footer section*/
 .footer_section {
-  background-color: #222831;
+  background-color: black;
   color: #ffffff;
   padding: 75px 0 40px 0;
   text-align: center;
+}
+
+.footer_section h1 {
+  font-size: 70px;
+  text-align: center;
+  margin: 100px;
 }
 
 .footer_section h4 {
@@ -977,18 +882,18 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #222831;
-  width: 30px;
-  height: 30px;
+  color: orange;
+  width: 50px;
+  height: 50px;
   border-radius: 100%;
   background-color: #ffffff;
   border-radius: 100%;
   margin: 0 2.5px;
-  font-size: 18px;
+  font-size: 22px;
 }
 
 .footer_section .footer_social a:hover {
-  color: #ffbe33;
+  color: black;
 }
 
 .footer_section .footer-info {
